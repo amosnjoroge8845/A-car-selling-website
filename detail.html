@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo-symbol">L</span>
+        <span class="logo-text">Luxury Motors</span>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="story.html">Our Story</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="top-actions">
+        <button class="icon-button search-btn" aria-label="Search">🔍</button>
+        <button class="icon-button menu-btn" aria-label="Menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="detail-page">
+        <div class="detail-hero">
+          <div class="detail-hero-content">
+            <span class="eyebrow" id="detailCategory">SUV</span>
+            <h1 id="detailName">Range Rover Vogue</h1>
+            <div class="price-row">
+              <strong class="card-price" id="detailPrice">$125,000</strong>
+              <span class="year-chip" id="detailYear">2023 Model</span>
+            </div>
+            <p id="detailText">The Range Rover Vogue is the ultimate blend of luxury, performance, and capability. With a refined interior, advanced technology, and powerful engine, it delivers an unmatched driving experience.</p>
+            <div class="panel-actions">
+              <button type="button" id="bookTestDriveBtn" class="btn btn-primary">Book a Test Drive</button>
+              <button type="button" id="downloadBrochureBtn" class="btn btn-secondary">Download Brochure</button>
+            </div>
+          </div>
+          <div class="detail-hero-image" id="detailHeroImage"></div>
+        </div>
+
+        <div class="detail-info">
+          <div>
+            <div class="spec-grid">
+              <div><span>Engine</span><strong id="detailEngine">3.0L V6</strong></div>
+              <div><span>Power</span><strong id="detailPower">395 HP</strong></div>
+              <div><span>0-100 km/h</span><strong id="detailAcceleration">6.3s</strong></div>
+              <div><span>Top Speed</span><strong id="detailTopSpeed">225 km/h</strong></div>
+              <div><span>Transmission</span><strong id="detailTransmission">Automatic</strong></div>
+              <div><span>Fuel Type</span><strong id="detailFuelType">Petrol</strong></div>
+            </div>
+          </div>
+          <div class="feature-panel">
+            <h2>Key Features</h2>
+            <ul class="feature-list" id="featureList"></ul>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gallery-image hero-image-1"></div>
+          <div class="gallery-image hero-image-2"></div>
+          <div class="gallery-image hero-image-3"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="brand">
+            <span class="logo-symbol">L</span>
+            <span class="logo-text">Luxury Motors</span>
+          </div>
+          <p>Curating exceptional automotive experiences for discerning collectors since 2002.</p>
+          <div class="social-links">
+            <a href="#" title="Facebook">f</a>
+            <a href="#" title="Instagram">📷</a>
+            <a href="#" title="Twitter">𝕏</a>
+            <a href="#" title="LinkedIn">in</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Vehicle Sales</a></li>
+            <li><a href="services.html">Trade-In Evaluation</a></li>
+            <li><a href="services.html">Financing</a></li>
+            <li><a href="services.html">Maintenance</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>
+            <strong>Address</strong><br>
+            123 Prestige Avenue<br>
+            Luxury District, MC 10001
+          </p>
+          <p>
+            <strong>Phone</strong><br>
+            <a href="tel:+1234567890">+1 (234) 567-890</a>
+          </p>
+          <p>
+            <strong>Email</strong><br>
+            <a href="mailto:info@luxurymotors.com">info@luxurymotors.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Luxury Motors. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Terms of Service</a>
+          <span>•</span>
+          <a href="#">Cookie Settings</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="cars.js"></script>
+  <script src="detail.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-pD7SZ727DpsXAtfZeQ7x6bKcMdKaYaaSpVhCK9iPta1Q69kKIFZiA2KYsYtjmlLwjHfBUO/0ZoO3ExW6lR8N4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="nav.js"></script>
+</body>
+</html>
